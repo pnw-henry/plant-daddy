@@ -1,0 +1,115 @@
+{
+    "plants": [
+        {
+            "id": 1,
+            "name": "Monstera Deliciosa",
+            "image": "./images/monstera-deliciosa.jpg",
+            "category": "Houseplant",
+            "light": "Bright Light",
+            "watering": "Frequent",
+            "safety": "Toxic to both cats and dogs."
+
+        },
+        {
+            "id": 2,
+            "name": "Snake Plant",
+            "image": "./images/snake-plant.jpg",
+            "category": "Houseplant",
+            "light": "Low Light",
+            "watering": "Infrequent",
+            "safety": "Toxic to both cats and dogs."
+        },
+        {
+            "id": 3,
+            "name": "Peace Lily",
+            "image": "./images/peace-lily.jpg",
+            "category": "Houseplant",
+            "light": "Low Light",
+            "watering": "Infrequent",
+            "safety":"Toxic to both cats and dogs."
+        },
+        {
+            "id": 4,
+            "name": "Neon Pothos",
+            "image": "./images/neon-pothos.jpg",
+            "category": "Houseplant",
+            "light": "Bright Light",
+            "watering": "Frequent",
+            "safety": "Toxic to both cats and dogs."
+        },
+        {
+            "id": 5,
+            "name": "Philodendron Brasil",
+            "image": "./images/philodendron-brasil.jpg",
+            "category": "Houseplant",
+            "light": "Bright Light",
+            "watering": "Frequent",
+            "safety": "Toxic to both cats and dogs."
+        },
+        {
+            "id": 6,
+            "name": "Bird of Paradise",
+            "image": "./images/bird-of-paradise.jpg",
+            "category": "Houseplant",
+            "light": "Bright Light",
+            "watering": "Frequent",
+            "safety": "Toxic to both cats and dogs."
+        },
+        {
+            "id": 7,
+            "name": "Rabbit Foot Fern",
+            "image": "./images/rabbit-foot-fern.jpg",
+            "category": "Houseplant",
+            "light": "Bright Light",
+            "watering": "Frequent",
+            "safety": "Non-toxic to both cats and dogs."
+        },
+        {
+            "id": 8,
+            "name": "Bird's Nest Fern",
+            "image": "./images/birds-nest-fern.jpg",
+            "category": "Houseplant",
+            "light": "Low Light",
+            "watering": "Infrequent",
+            "safety": "Non-toxic to both cats and dogs."
+        },
+        {
+            "id": 9,
+            "name": "Fiddle Leaf Fig",
+            "image": "./images/fiddle-leaf-fig.jpg",
+            "category": "Houseplant",
+            "light": "Bright Light",
+            "watering": "Frequent",
+            "safety": "Toxic to both cats and dogs."
+        },
+        {
+            "id": 10,
+            "name": "Ficus Elastica",
+            "image": "./images/ficus-elastica.jpg",
+            "category": "Houseplant",
+            "light": "Bright Light",
+            "watering": "Frequent",
+            "safety": "Toxic to both cats and dogs."
+        },
+        {
+            "id": 11,
+            "name": "Ponytail Palm",
+            "image": "./images/ponytail-palm.jpg",
+            "category": "Houseplant",
+            "light": "Bright Light",
+            "watering": "Infrequent",
+            "safety": "Non-toxic to both cats and dogs."
+        },
+        {
+            "id": 12,
+            "name": "ZZ Plant",
+            "image": "./images/zz-plant.jpg",
+            "category": "Houseplant",
+            "light": "Low Light",
+            "watering": "Infrequent",
+            "safety": "Toxic to both cats and dogs."
+        }
+
+    ]
+
+}

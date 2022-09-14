@@ -30,3 +30,15 @@
 .plant-card img {
   max-width: 20%;
 }
+
+.single-cards {
+  list-style: none;
+}
+
+.plant-card {
+  margin: 1rem;
+}
+
+.user-plant img {
+  max-width: 20%;
+}

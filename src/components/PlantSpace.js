@@ -1,24 +1,14 @@
-import { useState, useEffect } from "react";
+import React from "react";
 import PlantList from "./PlantList";
 
-function PlantSpace() {
-  const [plants, setPlants] = useState([]);
-  const [favorites, setFavorites] = useState("");
-
-  const API = "http://localhost:3001/plants";
-
-  useEffect(() => {
-    fetch(API)
-      .then((r) => r.json())
-      .then((plants) => {
-        console.log(plants);
-        setPlants(plants);
-      });
-  }, []);
-
+function PlantSpace({ plants, onFavoriteClick, onUnfavoriteClick }) {
   return (
     <div className="plantspace">
-      <PlantList plants={plants} />
+      <PlantList
+        plants={plants}
+        onFavoriteClick={onFavoriteClick}
+        onUnfavoriteClick={onUnfavoriteClick}
+      />
     </div>
   );
 }

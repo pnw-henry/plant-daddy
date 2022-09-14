@@ -1,10 +1,16 @@
 import React from "react";
 import PlantCard from "./PlantCard";
 
-function PlantList({ plants }) {
-  console.log(plants);
-  const plantCards = plants.map((plant) => {
-    return <PlantCard key={plant.id} plant={plant} />;
+function PlantList({ plants, onFavoriteClick, onUnfavoriteClick }) {
+  const plantCards = plants.map((plant, index) => {
+    return (
+      <PlantCard
+        key={index}
+        plant={plant}
+        onFavoriteClick={onFavoriteClick}
+        onUnfavoriteClick={onUnfavoriteClick}
+      />
+    );
   });
 
   return (

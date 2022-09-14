@@ -13,7 +13,7 @@ function Navigation() {
   };
 
   return (
-    <div>
+    <div className="nav-bar">
       <div className="navigation">
         <NavLink
           to="/"

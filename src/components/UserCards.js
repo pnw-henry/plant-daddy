@@ -1,11 +1,25 @@
 import React from "react";
 
-function UserCards({ plant }) {
+function UserCards({ plant, onDelete }) {
+  const { id, name, image } = plant;
+  const API = `http://localhost:3001/userplants/${id}`;
+
+  function handleDelete() {
+    fetch(API, {
+      method: "DELETE",
+    });
+
+    onDelete(id);
+  }
   return (
     <div>
       <li className="user-plant">
-        <h1>{plant.name}</h1>
-        <img src={plant.image} alt={plant.name} />
+        <h1>{name}</h1>
+        <img src={image} alt={name} />
+        <br></br>
+        <button className="delete-button" onClick={handleDelete}>
+          Remove
+        </button>
       </li>
     </div>
   );

@@ -3,15 +3,13 @@ import { NavLink } from "react-router-dom";
 
 function Navigation() {
   const linkStyles = {
-    display: "inline-block",
-    width: "50px",
-    padding: "12px",
-    margin: "0 6px 6px",
+    display: "inline",
+    padding: "8px",
+    margin: "0",
     background: "gray",
     textDecoration: "none",
     color: "white",
   };
-
   return (
     <div className="nav-bar">
       <div className="navigation">

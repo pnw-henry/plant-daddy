@@ -22,14 +22,12 @@ function App() {
   }, []);
 
   function onFavoriteClick(plantClicked) {
-    console.log("favorite clicked", plantClicked);
     setFavoriteList([...favoriteList, plantClicked]);
   }
 
   console.log("favorite list inside app", favoriteList);
 
   function onUnfavoriteClick(plantClicked) {
-    console.log("unfavorite clicked", plantClicked);
     setFavoriteList(favoriteList.filter((plant) => plant !== plantClicked));
   }
 
@@ -47,7 +45,7 @@ function App() {
         </Route>
         <Route path="/favorites">
           <Favorites
-            plants={favoriteList}
+            plants={plants.filter((plant) => plant.favorite !== false)}
             onUnfavoriteClick={onUnfavoriteClick}
           />
         </Route>

@@ -1,36 +1,50 @@
 .app {
   margin: 0 auto;
   max-width: 1200px;
+  background-color: rgb(242, 242, 242);
 }
 
 .home {
+  background-color: rgb(40, 77, 54);
   position: relative;
   text-align: center;
-  color: white;
   width: 100%;
 }
-.logo strong {
-  color: green;
+.logo {
+  color: white;
+  text-align: left;
+  background-color: rgb(57, 74, 57);
 }
+
 .home-image img {
   margin: auto;
-  width: 60%;
+  width: 1200px;
 }
 
 .about-text {
+  display: inline-block;
   position: absolute;
+  text-align: left;
+  font-size: 30px;
+  color: white;
   top: 8px;
   left: 16px;
+  background: rgba(94, 94, 94, 0.3);
 }
 
 .navigation {
   text-align: center;
 }
 
-.plant-card img {
+.plant-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 20%;
 }
-
+.plant-card img {
+  max-width: 50%;
+}
 .single-cards {
   list-style: none;
 }

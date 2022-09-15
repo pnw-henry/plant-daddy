@@ -6,6 +6,8 @@ function UserPlants() {
   const [plantImage, setPlantImage] = useState([]);
   const [userPlants, setUserPlants] = useState([]);
 
+  console.log("userplants", userPlants);
+
   const API = "http://localhost:3001/userplants";
 
   useEffect(() => {
@@ -15,6 +17,11 @@ function UserPlants() {
         setUserPlants(plants);
       });
   }, []);
+
+  function handleDelete(id) {
+    const updatedUserPlants = userPlants.filter((plant) => plant.id !== id);
+    setUserPlants(updatedUserPlants);
+  }
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -70,7 +77,7 @@ function UserPlants() {
         </form>
       </div>
       <div className="user-plants-list">
-        <UserList plants={userPlants} />
+        <UserList plants={userPlants} onDelete={handleDelete} />
       </div>
     </div>
   );

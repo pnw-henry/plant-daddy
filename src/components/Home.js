@@ -5,7 +5,18 @@ function Home() {
       <div className="home-image">
         <img src="https://i.imgur.com/tlzAh7M.jpg" alt="Home-image"></img>
       </div>
-      <div className="about-text">About text</div>
+      <div className="about-text">
+        <article>
+          <h2>The future is green.</h2>
+          <br></br>
+          <p>
+            Welcome to the knowledge you need to create an indoor jungle.
+            Anybody can have a green thumb! At Plant Daddy, we make it super
+            easy to find the information you need to keep your plant babies
+            alive.
+          </p>
+        </article>
+      </div>
     </div>
   );
 }

@@ -16,17 +16,19 @@ function PlantCard({ plant, onFavoriteClick, onUnfavoriteClick }) {
   return (
     <div className="plant-card">
       <li className="plant-li">
-        <h2>{name}</h2>
+        <h2>
+          <strong>{name}</strong>
+        </h2>
         <img src={image} alt={name} />
         <br></br>
         <div className="button">
           {favorite ? (
             <button onClick={handleUnfavClick} className="favorite">
-              ♡
+              Remove from favorites
             </button>
           ) : (
             <button onClick={handleFavClick} className="Unfavorite">
-              💚
+              Add to favorites
             </button>
           )}
         </div>

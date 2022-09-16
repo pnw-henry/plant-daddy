@@ -6,6 +6,7 @@ function Home() {
         <img src="https://i.imgur.com/tlzAh7M.jpg" alt="Home-image"></img>
       </div>
       <div className="about-text">
+        <br></br>
         <article>
           <h2>The future is green.</h2>
           <br></br>

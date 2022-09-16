@@ -25,8 +25,6 @@ function App() {
     setFavoriteList([...favoriteList, plantClicked]);
   }
 
-  console.log("favorite list inside app", favoriteList);
-
   function onUnfavoriteClick(plantClicked) {
     setFavoriteList(favoriteList.filter((plant) => plant !== plantClicked));
   }

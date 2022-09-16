@@ -2,50 +2,49 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 function Navigation() {
-  const linkStyles = {
-    display: "inline",
-    padding: "8px",
-    margin: "0",
-    background: "gray",
-    textDecoration: "none",
-    color: "white",
-  };
   return (
     <div className="nav-bar">
       <div className="navigation">
+        <br></br>
         <NavLink
-          to="/"
           exact
-          style={linkStyles}
-          activeStyle={{ background: "green" }}
+          to="/"
+          className={(isActive) =>
+            "nav-link" + (!isActive ? " unselected" : "")
+          }
+          activeClassName="selected"
         >
           Home
         </NavLink>
         <NavLink
           to="/plantspace"
-          exact
-          style={linkStyles}
-          activeStyle={{ background: "green" }}
+          className={(isActive) =>
+            "nav-link" + (!isActive ? " unselected" : "")
+          }
+          activeClassName="selected"
         >
           A-Z Plants
         </NavLink>
         <NavLink
           to="/mylist"
-          exact
-          style={linkStyles}
-          activeStyle={{ background: "green" }}
+          className={(isActive) =>
+            "nav-link" + (!isActive ? " unselected" : "")
+          }
+          activeClassName="selected"
         >
           My List
         </NavLink>
         <NavLink
           to="/favorites"
-          exact
-          style={linkStyles}
-          activeStyle={{ background: "green" }}
+          className={(isActive) =>
+            "nav-link" + (!isActive ? " unselected" : "")
+          }
+          activeClassName="selected"
         >
-          💚
+          Favorites
         </NavLink>
       </div>
+      <br></br>
     </div>
   );
 }

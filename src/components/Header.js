@@ -3,7 +3,7 @@ function Header() {
     <header>
       <h1 className="logo">
         <strong>Plant Daddy</strong>
-        <span>🍃</span>
+        <span> 🍃</span>
       </h1>
     </header>
   );

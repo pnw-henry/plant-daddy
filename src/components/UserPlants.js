@@ -6,8 +6,6 @@ function UserPlants() {
   const [plantImage, setPlantImage] = useState([]);
   const [userPlants, setUserPlants] = useState([]);
 
-  console.log("userplants", userPlants);
-
   const API = "http://localhost:3001/userplants";
 
   useEffect(() => {

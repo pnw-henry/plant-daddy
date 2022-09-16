@@ -6,7 +6,7 @@
             "image": "./images/monstera-deliciosa.jpeg",
             "light": "Bright Light",
             "watering": "Frequent",
-            "safety": "Toxic to both cats and dogs.",
+            "safety": "Toxic to both cats and dogs",
             "favorite": false
 
         },
@@ -16,7 +16,7 @@
             "image": "./images/snake-plant.jpeg",
             "light": "Low Light",
             "watering": "Infrequent",
-            "safety": "Toxic to both cats and dogs.",
+            "safety": "Toxic to both cats and dogs",
             "favorite": false
         },
         {
@@ -25,7 +25,7 @@
             "image": "./images/peace-lily.jpeg",
             "light": "Low Light",
             "watering": "Infrequent",
-            "safety":"Toxic to both cats and dogs.",
+            "safety":"Toxic to both cats and dogs",
             "favorite": false
         },
         {
@@ -34,7 +34,7 @@
             "image": "./images/neon-pothos.jpeg",
             "light": "Bright Light",
             "watering": "Frequent",
-            "safety": "Toxic to both cats and dogs.",
+            "safety": "Toxic to both cats and dogs",
             "favorite": false
         },
         {
@@ -43,7 +43,7 @@
             "image": "./images/philodendron-brasil.jpeg",
             "light": "Bright Light",
             "watering": "Frequent",
-            "safety": "Toxic to both cats and dogs.",
+            "safety": "Toxic to both cats and dogs",
             "favorite": false
         },
         {
@@ -52,7 +52,7 @@
             "image": "./images/bird-of-paradise.jpeg",
             "light": "Bright Light",
             "watering": "Frequent",
-            "safety": "Toxic to both cats and dogs.",
+            "safety": "Toxic to both cats and dogs",
             "favorite": false
         },
         {
@@ -61,7 +61,7 @@
             "image": "./images/rabbit-foot-fern.jpeg",
             "light": "Bright Light",
             "watering": "Frequent",
-            "safety": "Non-toxic to both cats and dogs.",
+            "safety": "Non-toxic to both cats and dogs",
             "favorite": false
         },
         {
@@ -70,7 +70,7 @@
             "image": "./images/birds-nest-fern.jpeg",
             "light": "Low Light",
             "watering": "Infrequent",
-            "safety": "Non-toxic to both cats and dogs.",
+            "safety": "Non-toxic to both cats and dogs",
             "favorite": false
         },
         {
@@ -79,7 +79,7 @@
             "image": "./images/fiddle-leaf-fig.jpeg",
             "light": "Bright Light",
             "watering": "Frequent",
-            "safety": "Toxic to both cats and dogs.",
+            "safety": "Toxic to both cats and dogs",
             "favorite": false
         },
         {
@@ -88,7 +88,7 @@
             "image": "./images/ficus-elastica.jpeg",
             "light": "Bright Light",
             "watering": "Frequent",
-            "safety": "Toxic to both cats and dogs.",
+            "safety": "Toxic to both cats and dogs",
             "favorite": false
         },
         {
@@ -97,7 +97,7 @@
             "image": "./images/ponytail-palm.jpeg",
             "light": "Bright Light",
             "watering": "Infrequent",
-            "safety": "Non-toxic to both cats and dogs.",
+            "safety": "Non-toxic to both cats and dogs",
             "favorite": false
         },
         {
@@ -106,7 +106,7 @@
             "image": "./images/zz-plant.jpeg",
             "light": "Low Light",
             "watering": "Infrequent",
-            "safety": "Toxic to both cats and dogs.",
+            "safety": "Toxic to both cats and dogs",
             "favorite": false
         }
 

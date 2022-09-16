@@ -27,6 +27,7 @@ body {
 .home-image img {
   margin: auto;
   width: 1200px;
+  max-height: auto;
   background-color: rgb(46, 54, 35);
 }
 

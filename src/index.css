@@ -102,6 +102,15 @@ body {
 .form-container {
   color: white;
 }
-.user-plant img {
-  max-width: 20%;
+.user-card img {
+  max-width: 50%;
+}
+
+.user-card {
+  text-align: center;
+  display: inline-flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 30%;
+  color: white;
 }

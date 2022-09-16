@@ -7,7 +7,7 @@ function UserList({ plants, onDelete }) {
   });
   return (
     <div className="user-list">
-      <ul className="single-cards">{plantCards}</ul>
+      <ul className="user-cards">{plantCards}</ul>
     </div>
   );
 }

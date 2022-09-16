@@ -8,7 +8,6 @@ function Search({ term, onSearch }) {
         value={term}
         onChange={(e) => onSearch(e.target.value)}
         type="text"
-        id="search"
         placeholder="Enter name..."
       />
     </div>

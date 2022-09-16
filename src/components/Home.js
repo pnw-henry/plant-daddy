@@ -8,7 +8,9 @@ function Home() {
       <div className="about-text">
         <br></br>
         <article>
-          <h2>The future is green.</h2>
+          <h2>
+            The future is <b>green</b>.
+          </h2>
           <br></br>
           <p>
             Welcome to the knowledge you need to create an indoor jungle.

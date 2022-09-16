@@ -13,7 +13,7 @@ function UserCards({ plant, onDelete }) {
   }
   return (
     <div>
-      <li className="user-plant">
+      <li className="user-card">
         <h1>{name}</h1>
         <img src={image} alt={name} />
         <br></br>

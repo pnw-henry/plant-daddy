@@ -2,10 +2,10 @@ import React from "react";
 import PlantCard from "./PlantCard";
 
 function PlantList({ plants, onFavoriteClick, onUnfavoriteClick }) {
-  const plantCards = plants.map((plant, index) => {
+  const plantCards = plants.map((plant) => {
     return (
       <PlantCard
-        key={index}
+        key={plant.id}
         plant={plant}
         onFavoriteClick={onFavoriteClick}
         onUnfavoriteClick={onUnfavoriteClick}

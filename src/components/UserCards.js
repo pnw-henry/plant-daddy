@@ -12,8 +12,8 @@ function UserCards({ plant, onDelete }) {
     onDelete(id);
   }
   return (
-    <div>
-      <li className="user-card">
+    <div className="user-card">
+      <li>
         <h1>{name}</h1>
         <img src={image} alt={name} />
         <br></br>

@@ -100,6 +100,12 @@ body {
   max-width: 30%;
   color: white;
 }
+
+.button {
+  padding: 6px;
+  border: none;
+  cursor: auto;
+}
 .plant-card img {
   max-width: 50%;
 }

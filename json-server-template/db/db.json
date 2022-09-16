@@ -109,11 +109,5 @@
       "favorite": false
     }
   ],
-  "userplants": [
-    {
-      "name": "wow",
-      "image": "https://planthawaii.com/wp-content/uploads/2021/07/IMG_8615jpg_600.jpg",
-      "id": 1
-    }
-  ]
+  "userplants": []
 }

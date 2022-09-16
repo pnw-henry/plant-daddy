@@ -3,7 +3,7 @@ import React from "react";
 function Search({ term, onSearch }) {
   return (
     <div className="search-bar">
-      <h3>Find the plant:</h3>
+      <h3>Find plant:</h3>
       <input
         value={term}
         onChange={(e) => onSearch(e.target.value)}

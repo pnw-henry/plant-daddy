@@ -118,3 +118,11 @@ body {
 .user-card img {
   max-width: 50%;
 }
+
+.user-plants-list {
+  background-color: rgb(28, 28, 28);
+}
+
+.user-ul {
+  list-style: none;
+}

@@ -18,6 +18,11 @@ function Home() {
             super easy to find the information you need to keep your plant
             babies alive and healthy!
           </p>
+          <br></br>
+          <p>
+            If you'd like, you can also add your own by selecting "My List"
+            above!
+          </p>
         </article>
       </div>
     </div>

@@ -99,11 +99,11 @@ body {
 .single-cards {
   list-style: none;
 }
+
 .form-container {
+  text-align: center;
   color: white;
-}
-.user-card img {
-  max-width: 50%;
+  margin: auto;
 }
 
 .user-card {
@@ -113,4 +113,8 @@ body {
   margin-bottom: auto;
   max-width: 30%;
   color: white;
+}
+
+.user-card img {
+  max-width: 50%;
 }

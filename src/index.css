@@ -119,6 +119,10 @@ body {
   margin: auto;
 }
 
+.form-container h2 {
+  font-size: 20px;
+}
+
 .form-container input {
   padding: 2px;
   margin: auto;

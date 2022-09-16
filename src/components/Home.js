@@ -14,7 +14,7 @@ function Home() {
             Welcome to the knowledge you need to create an indoor jungle.
             Anybody can have a green thumb! At Plant Daddy, we make it super
             easy to find the information you need to keep your plant babies
-            alive.
+            alive and healthy!
           </p>
         </article>
       </div>

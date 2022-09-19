@@ -1,30 +1,29 @@
-# VoiceSeek
+# Plant Daddy
 
-VoiceSeek is a web application that allows the user to look up official album releases for their desired artist. It uses the MusicBrainz API to fetch data and complete requests.
+Plant Daddy is a React Web Application that displays key information for a selection of house plants. In the "A-Z Plants" section of the app, the user can look up their desired plant, read about it, and see an option to add it to their favorites list. In the "My List" section, a user can also add their own plant entry (as it stands, this is reserved only to name and image), which is then sent to the server for future use. 
 
 ## Installation
 
-No API key or virtual server required.
+No API key required. 
 
-* Fork and clone the Github [repository](https://github.com/pnw-henry/Voiceseek) into a local machine.
+* Fork and clone the Github [repository](https://github.com/pnw-henry/plant-daddy) into a local machine.
 * Navigate to the directory created by using Finder (Mac), Explorer (Windows) or a command line interface:
-	On Mac, open the terminal app, cd into voiceseek directory, open homepage.html
-	On Windows, open the command prompt, cd into voiceseek directory, open homepage.html
-* Open the homepage.html file using Google Chrome.
+	On Mac, open the terminal app, cd into plant-daddy directory, type npm start. This will start the react server hosting the app components and files.
+	Navigate to ./plant-daddy/json-server-template/ and type npm run dev. This will start the json server holding the plant object responsible for populating the "A-Z Plants" section of the app.
+	
 
 ## Usage
 
-Type in the name of a music artist in the search box, click the search button to find possible matches. If there's a match, select it, and a list of albums from that artist will be shown.
+Plant Daddy is divided into four sections: Home, A-Z Plants, My List, and Favorites. 
+
+The Home section contains a simple introduction. A-Z Plants contains a selection of plants manually added to the server object. You can also search for an existing plant and favorite. My List has a form that can be used to submit a new plant to the server. Finally, the Favorites section contains the list of plants that were favorite'd in the A-Z Plants section.
 
 ## Roadmap
 
 Implement the ability to sort results.
-Add album art to albums. 
-Add song listings when a user clicks on an album.
+Update the Home page to be more visually pleasing and interactive.
+Add more detailed plant information.
 
-## Authors and Acknowledgement
-
-All results are based on data gathered from MusicBrainz. It's thanks to their contribution, and other open APIs, that VoiceSeek is made possible.
 
 ## Contributing
 

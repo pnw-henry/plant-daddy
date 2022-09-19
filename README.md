@@ -20,9 +20,9 @@ The Home section contains a simple introduction. A-Z Plants contains a selection
 
 ## Roadmap
 
-Implement the ability to sort results.
-Update the Home page to be more visually pleasing and interactive.
-Add more detailed plant information.
+* Implement the ability to sort results.
+* Update the Home page to be more visually pleasing and interactive.
+* Add more detailed plant information.
 
 
 ## Contributing

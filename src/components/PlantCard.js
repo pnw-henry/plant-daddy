@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function PlantCard({ plant, onFavoriteClick, onUnfavoriteClick }) {
-  const { id, name, image, light, watering, safety, favorite } = plant;
+  const { name, image, light, watering, safety, favorite } = plant;
 
   function handleFavClick() {
     plant.favorite = true;

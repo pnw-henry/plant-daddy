@@ -4,6 +4,9 @@ import UserList from "./UserList";
 function UserPlants() {
   const [plantName, setPlantName] = useState([]);
   const [plantImage, setPlantImage] = useState([]);
+  const [plantLight, setPlantLight] = useState([]);
+  const [plantWater, setPlantWater] = useState([]);
+  const [plantSafety, setPlantSafety] = useState([]);
   const [userPlants, setUserPlants] = useState([]);
 
   const API = "http://localhost:3001/userplants";
@@ -27,6 +30,9 @@ function UserPlants() {
     const newPlant = {
       name: plantName,
       image: plantImage,
+      light: plantLight,
+      water: plantWater,
+      safety: plantSafety,
     };
 
     fetch(API, {
@@ -67,6 +73,33 @@ function UserPlants() {
             className="plant-image"
             value={plantImage}
             onChange={(e) => setPlantImage(e.target.value)}
+          />
+          <br></br>
+          <input
+            name="light"
+            type="text"
+            placeholder="Light Requirements"
+            className="plant-light"
+            value={plantLight}
+            onChange={(e) => setPlantLight(e.target.value)}
+          />
+          <br></br>
+          <input
+            name="water"
+            type="text"
+            placeholder="Water Requirements"
+            className="plant-water"
+            value={plantWater}
+            onChange={(e) => setPlantWater(e.target.value)}
+          />
+          <br></br>
+          <input
+            name="safety"
+            type="text"
+            placeholder="Pet Safety"
+            className="plant-safety"
+            value={plantSafety}
+            onChange={(e) => setPlantSafety(e.target.value)}
           />
           <br></br>
           <button type="submit" className="submit-button">

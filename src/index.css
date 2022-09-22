@@ -112,10 +112,11 @@ body {
 }
 
 .button {
-  padding: 6px;
-  border: none;
   cursor: auto;
+  border: none;
+  padding: 10px;
 }
+
 .plant-card img {
   max-width: 50%;
 }

@@ -24,6 +24,10 @@ The Home section contains a simple introduction. A-Z Plants contains a selection
 * Update the Home page to be more visually pleasing and interactive.
 * Add more detailed plant information.
 
+## Special Thanks
+
+The images currently being used were obtained from various plant stores. These will be updated with my own at a later time. If you'd like an image to be taken down, please contact me at henrye@gmail.com. Thank you!
+
 
 ## Contributing
 

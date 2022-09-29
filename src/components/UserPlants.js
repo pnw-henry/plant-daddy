@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import UserList from "./UserList";
 
 function UserPlants() {
-  const [plantName, setPlantName] = useState([]);
-  const [plantImage, setPlantImage] = useState([]);
-  const [plantLight, setPlantLight] = useState([]);
-  const [plantWater, setPlantWater] = useState([]);
-  const [plantSafety, setPlantSafety] = useState([]);
+  const [plantName, setPlantName] = useState("");
+  const [plantImage, setPlantImage] = useState("");
+  const [plantLight, setPlantLight] = useState("");
+  const [plantWater, setPlantWater] = useState("");
+  const [plantSafety, setPlantSafety] = useState("");
   const [userPlants, setUserPlants] = useState([]);
 
   const API = "http://localhost:3001/userplants";

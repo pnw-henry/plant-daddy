@@ -109,14 +109,5 @@
       "favorite": false
     }
   ],
-  "userplants": [
-    {
-      "name": "Monstera",
-      "image": "https://hips.hearstapps.com/hmg-prod/images/monstera-plant-care-1654027463.jpg",
-      "light": "High",
-      "water": "High",
-      "safety": "Toxic",
-      "id": 1
-    }
-  ]
+  "userplants": []
 }

@@ -2,11 +2,13 @@ import React, { useState, useEffect } from "react";
 import UserList from "./UserList";
 
 function UserPlants() {
-  const [plantName, setPlantName] = useState("");
-  const [plantImage, setPlantImage] = useState("");
-  const [plantLight, setPlantLight] = useState("");
-  const [plantWater, setPlantWater] = useState("");
-  const [plantSafety, setPlantSafety] = useState("");
+  const [plantForm, setPlantForm] = useState({
+    name: "",
+    image: "",
+    light: "",
+    water: "",
+    safety: "",
+  });
   const [userPlants, setUserPlants] = useState([]);
 
   const API = "http://localhost:3001/userplants";
@@ -19,6 +21,13 @@ function UserPlants() {
       });
   }, []);
 
+  function handleChange(e) {
+    setPlantForm({
+      ...plantForm,
+      [e.target.name]: e.target.value,
+    });
+  }
+
   function handleDelete(id) {
     const updatedUserPlants = userPlants.filter((plant) => plant.id !== id);
     setUserPlants(updatedUserPlants);
@@ -28,11 +37,11 @@ function UserPlants() {
     e.preventDefault();
 
     const newPlant = {
-      name: plantName,
-      image: plantImage,
-      light: plantLight,
-      water: plantWater,
-      safety: plantSafety,
+      name: plantForm.name,
+      image: plantForm.image,
+      light: plantForm.light,
+      water: plantForm.water,
+      safety: plantForm.safety,
     };
 
     fetch(API, {
@@ -58,12 +67,12 @@ function UserPlants() {
         <h2>Add your own plant!</h2>
         <form className="new-plant-form" onSubmit={handleSubmit}>
           <input
-            name="plant"
+            name="name"
             type="text"
             placeholder="Name"
             className="plant-name"
-            value={plantName}
-            onChange={(e) => setPlantName(e.target.value)}
+            value={plantForm.name}
+            onChange={handleChange}
           />
           <br></br>
           <input
@@ -71,8 +80,8 @@ function UserPlants() {
             type="text"
             placeholder="Add image URL"
             className="plant-image"
-            value={plantImage}
-            onChange={(e) => setPlantImage(e.target.value)}
+            value={plantForm.image}
+            onChange={handleChange}
           />
           <br></br>
           <input
@@ -80,8 +89,8 @@ function UserPlants() {
             type="text"
             placeholder="Light Requirements"
             className="plant-light"
-            value={plantLight}
-            onChange={(e) => setPlantLight(e.target.value)}
+            value={plantForm.light}
+            onChange={handleChange}
           />
           <br></br>
           <input
@@ -89,8 +98,8 @@ function UserPlants() {
             type="text"
             placeholder="Water Requirements"
             className="plant-water"
-            value={plantWater}
-            onChange={(e) => setPlantWater(e.target.value)}
+            value={plantForm.water}
+            onChange={handleChange}
           />
           <br></br>
           <input
@@ -98,8 +107,8 @@ function UserPlants() {
             type="text"
             placeholder="Pet Safety"
             className="plant-safety"
-            value={plantSafety}
-            onChange={(e) => setPlantSafety(e.target.value)}
+            value={plantForm.safety}
+            onChange={handleChange}
           />
           <br></br>
           <button type="submit" className="submit-button">

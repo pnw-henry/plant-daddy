@@ -9,7 +9,7 @@ import { Route, Switch } from "react-router-dom";
 
 function App() {
   const [plants, setPlants] = useState([]);
-  //Favorites list held in state to be used for future feature
+  //Favorites list held in state to be used in future versions of the app
   const [favoriteList, setFavoriteList] = useState([]);
 
   const API = "http://localhost:3001/plants";

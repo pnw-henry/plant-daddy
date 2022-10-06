@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function PlantCard({ plant, onFavoriteClick, onUnfavoriteClick }) {
   const { name, image, light, watering, safety, favorite } = plant;

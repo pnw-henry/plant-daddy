@@ -9,7 +9,6 @@ import { Route, Switch } from "react-router-dom";
 
 function App() {
   const [plants, setPlants] = useState([]);
-  //Favorites list held in state to be used in future versions of the app
   const [favoriteList, setFavoriteList] = useState([]);
 
   const API = "http://localhost:3001/plants";
@@ -22,17 +21,13 @@ function App() {
       });
   }, []);
 
-  //Adds plant clicked on by user to favoriteList
   function onFavoriteClick(plantClicked) {
     setFavoriteList([...favoriteList, plantClicked]);
   }
 
-  //Removes plant clicked on by user from FavoriteList
   function onUnfavoriteClick(plantClicked) {
     setFavoriteList(favoriteList.filter((plant) => plant !== plantClicked));
   }
-
-  console.log(favoriteList);
 
   return (
     <div className="app">
@@ -56,7 +51,7 @@ function App() {
           <UserPlants />
         </Route>
         <Route path="/">
-          <Home />
+          <Home favoritesNumber={favoriteList.length} />
         </Route>
       </Switch>
     </div>

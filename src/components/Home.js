@@ -1,5 +1,5 @@
 import React from "react";
-function Home() {
+function Home({ favoritesNumber }) {
   return (
     <div className="home">
       <div className="home-image">
@@ -21,7 +21,8 @@ function Home() {
           <br></br>
           <p>
             If you'd like, you can also add your own by selecting "My List"
-            above!
+            above! You currently have {favoritesNumber} plant(s) in your
+            favorites!
           </p>
         </article>
       </div>

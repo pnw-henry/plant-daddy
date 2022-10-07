@@ -9,15 +9,11 @@ function PlantSpace({ plants, onFavoriteClick, onUnfavoriteClick }) {
     return plant.name.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
-  const sortedPlants = [...filteredPlants].sort((plant1, plant2) => {
-    return plant1.name.localeCompare(plant2.name);
-  });
-
   return (
     <div className="plantspace">
       <Search term={searchTerm} onSearch={setSearchTerm} />
       <PlantList
-        plants={sortedPlants}
+        plants={filteredPlants}
         onFavoriteClick={onFavoriteClick}
         onUnfavoriteClick={onUnfavoriteClick}
       />
